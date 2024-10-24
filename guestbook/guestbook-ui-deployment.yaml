@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: gonzzza/guestbook:0.3
+      - image: hub.docker.com/g0nzzza/guestbook:0.3
         name: guestbook-ui
         ports:
         - containerPort: 80
